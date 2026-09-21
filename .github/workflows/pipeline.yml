@@ -21,6 +21,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
       DATABRICKS_TOKEN:  ${{ secrets.DATABRICKS_TOKEN }}
+      # 👉 Cambia por el nombre de tu repositorio, ejemplo "/github-databricks"
       REPO_PATH: /Workspace/Users/${{ secrets.DATABRICKS_EMAIL }}/github-databricks
 
     # Steps represent a sequence of tasks that will be executed as part of the job
